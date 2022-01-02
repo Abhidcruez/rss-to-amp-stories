@@ -7,19 +7,6 @@ During the ["Telling Stories with AMP" talk](https://www.youtube.com/watch?v=aae
 Note that it should be used to display a single story and not many stories like I did here.
 
 
-## Demo
-
-- [Ouest-France latest news in amp-story format](http://rss-to-amp-stories.cleverapps.io/?url=https://www.ouest-france.fr/rss-en-continu.xml)
-- [Le Monde news in amp-story format](http://rss-to-amp-stories.cleverapps.io/?url=http://www.lemonde.fr/rss/une.xml)
-
-
-<p align="center">
-<a href="http://rss-to-amp-stories.cleverapps.io/?url=https://www.ouest-france.fr/rss-en-continu.xml"><img src="gifs/mobile.gif" height="500"/></a>
-</p>
-
-<p align="center">
-<a href="http://rss-to-amp-stories.cleverapps.io/?url=https://www.ouest-france.fr/rss-en-continu.xml"><img src="gifs/desktop.gif" height="500"/></a>
-</p>
 
 
 ## What does it do
