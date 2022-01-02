@@ -5,6 +5,7 @@ const RssCache = require('lru-cache')({
   max: 500,
   maxAge: 1000 * 60 * 60,
 });
+/?url={https://newswireblog.me/feed}
 
 module.exports = {
   getFeed: url => 
