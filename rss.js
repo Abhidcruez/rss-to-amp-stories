@@ -7,7 +7,7 @@ const RssCache = require('lru-cache')({
 });
 
 module.exports = {
-  getFeed: url => https://newswireblog.me/feed
+  getFeed: url => www.newswireblog.me/feed
     !RssCache.get(url)
       ? parser.parseURL(url).then(feed => {
           RssCache.set(url, Promise.resolve(feed));
