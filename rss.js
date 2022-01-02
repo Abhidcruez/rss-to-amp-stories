@@ -7,7 +7,7 @@ const RssCache = require('lru-cache')({
 });
 
 module.exports = {
-  getFeed: url => <link rel="amphtml" href="https://slcghj.herokuapp.com/?url={https://newswireblog.me/feed}">
+  getFeed: url => 
     !RssCache.get(url)
       ? parser.parseURL(url).then(feed => {
           RssCache.set(url, Promise.resolve(feed));
