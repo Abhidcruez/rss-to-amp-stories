@@ -5,7 +5,8 @@ const RssCache = require('lru-cache')({
   max: 500,
   maxAge: 1000 * 60 * 60,
 });
-/?url={https://newswireblog.me/feed}
+
+<link rel="amphtml" href="https://slcghj.herokuapp.com/?url={https://newswireblog.me/rss}">
 
 module.exports = {
   getFeed: url => 
